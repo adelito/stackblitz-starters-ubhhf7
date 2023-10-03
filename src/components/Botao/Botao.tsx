@@ -6,7 +6,7 @@ interface Props {
   nome: string;
 }
 
-export default function Botao() {
+export default function Botao({ nome }: Props) {
   return (
     <div>
       <button>{this.props.children}</button>
