@@ -9,7 +9,7 @@ interface Props {
 export default function Botao({ nome }: Props) {
   return (
     <div>
-      <button>{this.props.children}</button>
+      <button>{this.Props.nome}</button>
     </div>
   );
 }
